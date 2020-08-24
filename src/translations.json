@@ -1,12 +1,24 @@
 {
   "en": {
     "translation": {
-      "profile_title": "Profile"
+      "nav_profile": "Profile",
+      "nav_technologies": "Technologies",
+      "nav_experience": "Experience",
+      "nav_education": "Education",
+      "nav_connect": "Connect",
+      "profile_greet": "Greetings!",
+      "profile_intro": "I'm a 25-year-old ICT Engineer from Jyväskylä, Finland. I'm currently working as a software developer at Devecto Oy and I also work a part-time teacher at Jyväskylä University of Applied Sciences, where I mainly teach automation engineering. On my current job, I'm mostly working on web development with React being my main focus."
     }
   },
   "fi": {
     "translation": {
-      "profile_title": "Profiili"
+      "nav_profile": "Profiili",
+      "nav_technologies": "Teknologiat",
+      "nav_experience": "Työkokemus",
+      "nav_education": "Koulutus",
+      "nav_connect": "Ota yhteyttä",
+      "profile_greet": "Tervehdys!",
+      "profile_intro": "Olen 25-vuotias tieto- ja viestintätekniikan insinööri Jyväskylästä. Työskentelen tällä hetkellä ohjelmistokehittäjänä Devecto Oy:llä ja työni ohella toimin sivutoimisena tuntiopettajana Jyväskylän Ammattikorkeakoulussa automaatiotekniikan alalla. Nykyisissä työtehtävissäni olen keskittynyt pääasiassa Web-kehitykseen, jossa painotus on ollut vahvasti React-kehityksessä."
     }
   }
 }

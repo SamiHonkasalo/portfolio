@@ -9,6 +9,7 @@ import {
   Typography,
 } from '@material-ui/core';
 import { makeStyles, Theme } from '@material-ui/core/styles';
+import { useTranslation } from 'react-i18next';
 
 import ProfilePicture from '../assets/images/profile.png';
 import useTitle from '../utils/hooks/useTitle';
@@ -25,11 +26,12 @@ const useStyles = makeStyles((theme: Theme) => ({
 }));
 
 const Profile: React.FC = () => {
+  const { t } = useTranslation();
   const classes = useStyles();
   const setTitle = useTitle();
 
   useEffect(() => {
-    setTitle('Profile');
+    setTitle(t('nav_profile'));
   }, [setTitle]);
 
   return (
@@ -49,16 +51,10 @@ const Profile: React.FC = () => {
                 </Grid>
                 <Grid item>
                   <Typography color="secondary" variant="h3" align="center">
-                    Tervehdys!
+                    {t('profile_greet')}
                   </Typography>
                   <Typography variant="body1" align="center">
-                    Olen 25-vuotias tieto- ja viestintätekniikan insinööri
-                    Jyväskylästä. Työskentelen tällä hetkellä
-                    ohjelmistokehittäjänä Devecto Oy:llä ja työni ohella toimin
-                    sivutoimisena tuntiopettajana Jyväskylän
-                    Ammattikorkeakoulussa automaatiotekniikan alalla. Nykyisissä
-                    työtehtävissäni olen keskittynyt pääasiassa Web-kehitykseen,
-                    jossa painotus on ollut vahvasti React-kehityksessä.
+                    {t('profile_info')}
                   </Typography>
                 </Grid>
               </Grid>

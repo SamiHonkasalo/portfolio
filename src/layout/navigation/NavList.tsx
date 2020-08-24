@@ -10,27 +10,27 @@ const NavList: React.FC = () => {
 
   return (
     <>
-      <NavItem
-        to="/"
-        icon={<DashboardIcon />}
-        primaryText={t('profile_title')}
-      />
+      <NavItem to="/" icon={<DashboardIcon />} primaryText={t('nav_profile')} />
       <NavItem
         to="/technologies"
         icon={<AssignmentIcon />}
-        primaryText="Technologies"
+        primaryText={t('nav_technologies')}
       />
       <NavItem
         to="/experience"
         icon={<AssignmentIcon />}
-        primaryText="Experience"
+        primaryText={t('nav_experience')}
       />
       <NavItem
         to="/education"
         icon={<AssignmentIcon />}
-        primaryText="Education"
+        primaryText={t('nav_education')}
       />
-      <NavItem to="/connect" icon={<AssignmentIcon />} primaryText="Connect" />
+      <NavItem
+        to="/connect"
+        icon={<AssignmentIcon />}
+        primaryText={t('nav_connect')}
+      />
     </>
   );
 };
