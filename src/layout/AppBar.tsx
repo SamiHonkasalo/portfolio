@@ -108,7 +108,7 @@ const AppBar: React.FC = () => {
           noWrap
           className={classes.title}
         >
-          Dashboard
+          {state.title}
         </Typography>
         <IconButton color="inherit" onClick={handleThemeSwitch}>
           {themeMode ? <Brightness7Icon /> : <Brightness4Icon />}

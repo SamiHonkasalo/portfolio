@@ -6,6 +6,7 @@ export enum UITypes {
   SET_LIGHT_THEME = 'SET_LIGHT_THEME',
   ADD_NOTIFICATION = 'ADD_NOTIFICATION',
   HIDE_NOTIFICATION = 'HIDE_NOTIFICATION',
+  SET_TITLE = 'SET_TITLE',
 }
 
 type UIPayload = {
@@ -16,6 +17,7 @@ type UIPayload = {
   [UITypes.ADD_NOTIFICATION]: NotificationType;
   [UITypes.HIDE_NOTIFICATION]: undefined;
   [UITypes.TOGGLE_TRANSITIONED]: undefined;
+  [UITypes.SET_TITLE]: string;
 };
 
 export type UIActions = ActionMap<UIPayload>[keyof ActionMap<UIPayload>];
@@ -25,6 +27,7 @@ export type UIState = {
   sideDrawerTransitioned: boolean;
   themeMode: boolean;
   notifications: NotificationType[];
+  title: string;
 };
 
 const uiReducer = (state: UIState, action: UIActions) => {
@@ -70,6 +73,11 @@ const uiReducer = (state: UIState, action: UIActions) => {
         notifications: curNotifs,
       };
     }
+    case UITypes.SET_TITLE:
+      return {
+        ...state,
+        title: action.payload,
+      };
 
     default:
       return state;

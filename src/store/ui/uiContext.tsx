@@ -6,6 +6,7 @@ const initialState: UIState = {
   sideDrawerTransitioned: true,
   themeMode: false,
   notifications: [] as NotificationType[],
+  title: 'Portfolio',
 };
 
 interface UIContextInterface {

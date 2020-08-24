@@ -64,7 +64,7 @@ const SideDrawer: React.FC = () => {
     >
       <div className={classes.toolbarIcon}>
         <Typography component="h1" variant="h6" color="inherit" noWrap>
-          LOGO
+          Portfolio
         </Typography>
       </div>
       <Divider />

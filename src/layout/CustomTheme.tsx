@@ -28,16 +28,16 @@ const CustomTheme: React.FC = ({ children }) => {
   const theme = useMemo(() => {
     return createMuiTheme({
       sideDrawer: {
-        width: 240,
+        width: 200,
         closedWidth: 72,
       },
       palette: {
         type: themeMode ? 'dark' : 'light',
         primary: {
-          main: '#00796b',
+          main: '#546e7a',
         },
         secondary: {
-          main: '#e65100',
+          main: '#2e7d32',
         },
       },
     });

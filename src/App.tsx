@@ -3,8 +3,11 @@ import { Switch, Route } from 'react-router-dom';
 
 import Layout from './layout/Layout';
 import LayoutWrapper from './layout/LayoutWrapper';
-import TestRoute from './TestRoute';
-import Home from './Home';
+import Profile from './profile/Profile';
+import Technologies from './technologies/Technologies';
+import Connect from './connect/Connect';
+import Experience from './experience/Experience';
+import Education from './education/Education';
 
 function App() {
   return (
@@ -13,10 +16,19 @@ function App() {
         <Layout>
           <Switch>
             <Route path="/" exact>
-              <Home />
+              <Profile />
             </Route>
-            <Route path="/test" exact>
-              <TestRoute />
+            <Route path="/technologies" exact>
+              <Technologies />
+            </Route>
+            <Route path="/experience" exact>
+              <Experience />
+            </Route>
+            <Route path="/education" exact>
+              <Education />
+            </Route>
+            <Route path="/connect" exact>
+              <Connect />
             </Route>
           </Switch>
         </Layout>
