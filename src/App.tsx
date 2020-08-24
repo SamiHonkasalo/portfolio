@@ -9,6 +9,8 @@ import Connect from './connect/Connect';
 import Experience from './experience/Experience';
 import Education from './education/Education';
 
+import './i18n';
+
 function App() {
   return (
     <LayoutWrapper>

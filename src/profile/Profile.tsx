@@ -56,10 +56,9 @@ const Profile: React.FC = () => {
                     Jyväskylästä. Työskentelen tällä hetkellä
                     ohjelmistokehittäjänä Devecto Oy:llä ja työni ohella toimin
                     sivutoimisena tuntiopettajana Jyväskylän
-                    Ammattikorkeakoulussa automaatiotekniikan alalla. Olen
-                    nykyisissä työtehtävissäni keskittynyt pääasiassa
-                    Web-kehitykseen, jossa painotus on ollut vahvasti
-                    React-kehityksessä.
+                    Ammattikorkeakoulussa automaatiotekniikan alalla. Nykyisissä
+                    työtehtävissäni olen keskittynyt pääasiassa Web-kehitykseen,
+                    jossa painotus on ollut vahvasti React-kehityksessä.
                   </Typography>
                 </Grid>
               </Grid>

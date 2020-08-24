@@ -1,13 +1,20 @@
 import React from 'react';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import AssignmentIcon from '@material-ui/icons/Assignment';
+import { useTranslation } from 'react-i18next';
 
 import NavItem from './NavItem';
 
 const NavList: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <>
-      <NavItem to="/" icon={<DashboardIcon />} primaryText="Profile" />
+      <NavItem
+        to="/"
+        icon={<DashboardIcon />}
+        primaryText={t('profile_title')}
+      />
       <NavItem
         to="/technologies"
         icon={<AssignmentIcon />}
