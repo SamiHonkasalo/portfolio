@@ -13,6 +13,8 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 import { UIContext } from '../store/ui/uiContext';
 import { UITypes } from '../store/ui/uiReducer';
+import { Button } from '@material-ui/core';
+import { useTranslation } from 'react-i18next';
 
 const useStyles = makeStyles((theme: Theme) => ({
   toolbar: {
@@ -52,6 +54,7 @@ const AppBar: React.FC = () => {
   const classes = useStyles();
   const isSmall = useMediaQuery((theme: Theme) => theme.breakpoints.down('sm'));
   const { state, dispatch } = useContext(UIContext);
+  const { i18n } = useTranslation();
 
   const { themeMode } = state;
 
@@ -64,6 +67,14 @@ const AppBar: React.FC = () => {
       dispatch({
         type: UITypes.SET_DARK_THEME,
       });
+    }
+  };
+
+  const handleLanguageToggle = () => {
+    if (i18n.language === 'en') {
+      i18n.changeLanguage('fi');
+    } else {
+      i18n.changeLanguage('en');
     }
   };
 
@@ -110,6 +121,9 @@ const AppBar: React.FC = () => {
         >
           {state.title}
         </Typography>
+        <Button color="inherit" variant="text" onClick={handleLanguageToggle}>
+          {i18n.language === 'en' ? 'FI' : 'EN'}
+        </Button>
         <IconButton color="inherit" onClick={handleThemeSwitch}>
           {themeMode ? <Brightness7Icon /> : <Brightness4Icon />}
         </IconButton>

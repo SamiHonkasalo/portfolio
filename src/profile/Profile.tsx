@@ -23,6 +23,12 @@ const useStyles = makeStyles((theme: Theme) => ({
     width: '10rem',
     margin: 'auto',
   },
+  card: {
+    height: '100%',
+  },
+  cardContent: {
+    padding: '16px 80px',
+  },
 }));
 
 const Profile: React.FC = () => {
@@ -40,7 +46,7 @@ const Profile: React.FC = () => {
         <Grid item xs={12}>
           <Card>
             <CardHeader title="Sami Honkasalo" className={classes.header} />
-            <CardContent>
+            <CardContent className={classes.cardContent}>
               <Grid container justify="center" direction="row" spacing={4}>
                 <Grid item xs={12} style={{ textAlign: 'center' }}>
                   <Avatar
@@ -49,12 +55,12 @@ const Profile: React.FC = () => {
                     className={classes.image}
                   />
                 </Grid>
-                <Grid item>
+                <Grid item xs={8}>
                   <Typography color="secondary" variant="h3" align="center">
                     {t('profile_greet')}
                   </Typography>
                   <Typography variant="body1" align="center">
-                    {t('profile_info')}
+                    {t('profile_intro')}
                   </Typography>
                 </Grid>
               </Grid>
@@ -62,43 +68,29 @@ const Profile: React.FC = () => {
           </Card>
         </Grid>
         <Grid item xs={12} md={6}>
-          <Card>
-            <CardHeader title="Mitä etsin?" className={classes.header} />
-            <CardContent>
+          <Card className={classes.card}>
+            <CardHeader
+              titleTypographyProps={{ align: 'center' }}
+              title={t('profile_seeking_title')}
+              className={classes.header}
+            />
+            <CardContent className={classes.cardContent}>
               <Typography variant="body1" align="center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                aliquam sapien erat. Suspendisse velit tellus, gravida
-                ullamcorper suscipit quis, faucibus ut erat. Class aptent taciti
-                sociosqu ad litora torquent per conubia nostra, per inceptos
-                himenaeos. Duis non feugiat velit, vitae pulvinar massa. Nam at
-                tortor odio. Vestibulum eu lectus eu tortor consequat venenatis
-                eget a ipsum. Donec feugiat velit lectus, quis ullamcorper
-                lectus ultricies hendrerit. Vivamus et sem ullamcorper, pulvinar
-                sapien at, vehicula libero. Vivamus blandit felis justo, ac
-                semper ante tristique ac. Donec diam lorem, faucibus id placerat
-                in, iaculis id nisl. Phasellus sed mi vitae urna porta
-                malesuada.
+                {t('profile_seeking')}
               </Typography>
             </CardContent>
           </Card>
         </Grid>
         <Grid item xs={12} md={6}>
-          <Card>
-            <CardHeader title="Miksi Sami?" className={classes.header} />
-            <CardContent>
+          <Card className={classes.card}>
+            <CardHeader
+              titleTypographyProps={{ align: 'center' }}
+              title={t('profile_why_title')}
+              className={classes.header}
+            />
+            <CardContent className={classes.cardContent}>
               <Typography variant="body1" align="center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                aliquam sapien erat. Suspendisse velit tellus, gravida
-                ullamcorper suscipit quis, faucibus ut erat. Class aptent taciti
-                sociosqu ad litora torquent per conubia nostra, per inceptos
-                himenaeos. Duis non feugiat velit, vitae pulvinar massa. Nam at
-                tortor odio. Vestibulum eu lectus eu tortor consequat venenatis
-                eget a ipsum. Donec feugiat velit lectus, quis ullamcorper
-                lectus ultricies hendrerit. Vivamus et sem ullamcorper, pulvinar
-                sapien at, vehicula libero. Vivamus blandit felis justo, ac
-                semper ante tristique ac. Donec diam lorem, faucibus id placerat
-                in, iaculis id nisl. Phasellus sed mi vitae urna porta
-                malesuada.
+                {t('profile_why')}
               </Typography>
             </CardContent>
           </Card>

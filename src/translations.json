@@ -7,7 +7,11 @@
       "nav_education": "Education",
       "nav_connect": "Connect",
       "profile_greet": "Greetings!",
-      "profile_intro": "I'm a 25-year-old ICT Engineer from Jyväskylä, Finland. I'm currently working as a software developer at Devecto Oy and I also work a part-time teacher at Jyväskylä University of Applied Sciences, where I mainly teach automation engineering. On my current job, I'm mostly working on web development with React being my main focus."
+      "profile_intro": "I'm a 25-year-old ICT Engineer from Jyväskylä, Finland. I'm currently working as a software developer at Devecto Oy and I also work a part-time teacher at Jyväskylä University of Applied Sciences, where I mainly teach automation engineering. On my current job, I'm mostly working on web development with React being my main focus.",
+      "profile_seeking_title": "What am I looking for?",
+      "profile_why_title": "Why Sami?",
+      "profile_why": "I'm agile, persistent, adaptive and a fast learner. I'm good at managing my own time and I can handle my tasks in time. You can also always trust that I will ask for help and guidance if I face an issue that I cannot handle on my own. If this sounds a bit too good to be true, here's a direct quote from a previous employer: 'Sami has shown resourcefulness and great problem solving skills on his assignments. The assignments have been handled with an active grasp and the results have been excellent.'",
+      "profile_seeking": "From my future work place I hope to find a social atmosphere and interesting assignments and projects. I'm always excited to meet new people and to learn new things!"
     }
   },
   "fi": {
@@ -18,7 +22,11 @@
       "nav_education": "Koulutus",
       "nav_connect": "Ota yhteyttä",
       "profile_greet": "Tervehdys!",
-      "profile_intro": "Olen 25-vuotias tieto- ja viestintätekniikan insinööri Jyväskylästä. Työskentelen tällä hetkellä ohjelmistokehittäjänä Devecto Oy:llä ja työni ohella toimin sivutoimisena tuntiopettajana Jyväskylän Ammattikorkeakoulussa automaatiotekniikan alalla. Nykyisissä työtehtävissäni olen keskittynyt pääasiassa Web-kehitykseen, jossa painotus on ollut vahvasti React-kehityksessä."
+      "profile_intro": "Olen 25-vuotias tieto- ja viestintätekniikan insinööri Jyväskylästä. Työskentelen tällä hetkellä ohjelmistokehittäjänä Devecto Oy:llä ja työni ohella toimin sivutoimisena tuntiopettajana Jyväskylän Ammattikorkeakoulussa automaatiotekniikan alalla. Nykyisissä työtehtävissäni olen keskittynyt pääasiassa Web-kehitykseen, jossa painotus on ollut vahvasti React-kehityksessä.",
+      "profile_seeking_title": "Mitä etsin?",
+      "profile_why_title": "Miksi Sami?",
+      "profile_why": "Olen reipas, nopeasti oppiva, sinnikäs ja sopeutuva. Hoidan työtehtäväni ajallaan, ja osaan aina kysyä tarvittaessa apua. Mikäli tämä kuulostaa uskomattomalta, niin tässä lainaus aiemmalta työnantajaltani: 'Työtehtävien hoidossa Sami on osoittanut neuvokkuutta ja loistavaa ongelmanratkaisukykyä. Työtehtävänsä Sami on hoitanut aktiivisella otteella ja tulokset ovat olleet erinomaisia.'",
+      "profile_seeking": "Tulevalta työpaikaltani toivon ja odotan hyvää sosiaalista ilmapiiriä ja mielenkiintoisia työtehtäviä. Olen aina kiinnostunut tutustumaan uusiin ihmisiin ja oppimaan uusia asioita!"
     }
   }
 }
