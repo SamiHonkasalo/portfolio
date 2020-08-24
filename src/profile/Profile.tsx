@@ -55,7 +55,7 @@ const Profile: React.FC = () => {
                     className={classes.image}
                   />
                 </Grid>
-                <Grid item xs={8}>
+                <Grid item xs={12} md={8}>
                   <Typography color="secondary" variant="h3" align="center">
                     {t('profile_greet')}
                   </Typography>
