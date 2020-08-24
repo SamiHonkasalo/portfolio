@@ -16,7 +16,7 @@ import useTitle from '../utils/hooks/useTitle';
 
 const useStyles = makeStyles((theme: Theme) => ({
   header: {
-    borderBottom: '2px solid' + theme.palette.primary.main,
+    borderBottom: `2px solid${theme.palette.primary.main}`,
   },
   image: {
     height: '10rem',
@@ -32,7 +32,7 @@ const Profile: React.FC = () => {
 
   useEffect(() => {
     setTitle(t('nav_profile'));
-  }, [setTitle]);
+  }, [setTitle, t]);
 
   return (
     <Container>
