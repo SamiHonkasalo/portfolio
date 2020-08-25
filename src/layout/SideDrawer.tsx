@@ -42,6 +42,10 @@ const useStyles = makeStyles((theme: Theme) => ({
   list: {
     padding: 0,
   },
+  title: {
+    fontFamily: "'Satisfy', cursive",
+    color: theme.palette.secondary.dark,
+  },
 }));
 
 const SideDrawer: React.FC = () => {
@@ -63,8 +67,14 @@ const SideDrawer: React.FC = () => {
       onTransitionEnd={() => dispatch({ type: UITypes.TOGGLE_TRANSITIONED })}
     >
       <div className={classes.toolbarIcon}>
-        <Typography component="h1" variant="h6" color="inherit" noWrap>
-          Portfolio
+        <Typography
+          className={classes.title}
+          component="h1"
+          variant="h5"
+          color="inherit"
+          noWrap
+        >
+          {state.sideDrawerOpen ? 'Sami Honkasalo' : 'SH'}
         </Typography>
       </div>
       <Divider />
