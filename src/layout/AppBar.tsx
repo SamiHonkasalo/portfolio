@@ -10,11 +10,11 @@ import Brightness4Icon from '@material-ui/icons/Brightness4';
 import Brightness7Icon from '@material-ui/icons/Brightness7';
 import IconButton from '@material-ui/core/IconButton';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { Button } from '@material-ui/core';
+import { useTranslation } from 'react-i18next';
 
 import { UIContext } from '../store/ui/uiContext';
 import { UITypes } from '../store/ui/uiReducer';
-import { Button } from '@material-ui/core';
-import { useTranslation } from 'react-i18next';
 
 const useStyles = makeStyles((theme: Theme) => ({
   toolbar: {

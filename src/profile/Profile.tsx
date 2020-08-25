@@ -7,6 +7,8 @@ import {
   Avatar,
   Grid,
   Typography,
+  useMediaQuery,
+  useTheme,
 } from '@material-ui/core';
 import { makeStyles, Theme } from '@material-ui/core/styles';
 import { useTranslation } from 'react-i18next';
@@ -26,15 +28,14 @@ const useStyles = makeStyles((theme: Theme) => ({
   card: {
     height: '100%',
   },
-  cardContent: {
-    padding: '16px 80px',
-  },
 }));
 
 const Profile: React.FC = () => {
   const { t } = useTranslation();
   const classes = useStyles();
   const setTitle = useTitle();
+  const theme = useTheme();
+  const isSmall = useMediaQuery(theme.breakpoints.down('sm'));
 
   useEffect(() => {
     setTitle(t('nav_profile'));
@@ -46,7 +47,7 @@ const Profile: React.FC = () => {
         <Grid item xs={12}>
           <Card>
             <CardHeader title="Sami Honkasalo" className={classes.header} />
-            <CardContent className={classes.cardContent}>
+            <CardContent>
               <Grid container justify="center" direction="row" spacing={4}>
                 <Grid item xs={12} style={{ textAlign: 'center' }}>
                   <Avatar
@@ -59,8 +60,19 @@ const Profile: React.FC = () => {
                   <Typography color="secondary" variant="h3" align="center">
                     {t('profile_greet')}
                   </Typography>
-                  <Typography variant="body1" align="center">
+                  <br />
+                  <Typography
+                    variant="body1"
+                    align={isSmall ? 'left' : 'center'}
+                  >
                     {t('profile_intro')}
+                  </Typography>
+                  <br />
+                  <Typography
+                    variant="body1"
+                    align={isSmall ? 'left' : 'center'}
+                  >
+                    {t('profile_intro_2')}
                   </Typography>
                 </Grid>
               </Grid>
@@ -74,11 +86,18 @@ const Profile: React.FC = () => {
               title={t('profile_seeking_title')}
               className={classes.header}
             />
-            <CardContent className={classes.cardContent}>
-              <Typography variant="body1" align="center">
-                {t('profile_seeking')}
-              </Typography>
-            </CardContent>
+            <Grid container justify="center">
+              <Grid item xs={12} md={8}>
+                <CardContent>
+                  <Typography
+                    variant="body1"
+                    align={isSmall ? 'left' : 'center'}
+                  >
+                    {t('profile_seeking')}
+                  </Typography>
+                </CardContent>
+              </Grid>
+            </Grid>
           </Card>
         </Grid>
         <Grid item xs={12} md={6}>
@@ -88,11 +107,18 @@ const Profile: React.FC = () => {
               title={t('profile_why_title')}
               className={classes.header}
             />
-            <CardContent className={classes.cardContent}>
-              <Typography variant="body1" align="center">
-                {t('profile_why')}
-              </Typography>
-            </CardContent>
+            <Grid container justify="center">
+              <Grid item xs={12} md={8}>
+                <CardContent>
+                  <Typography
+                    variant="body1"
+                    align={isSmall ? 'left' : 'center'}
+                  >
+                    {t('profile_why')}
+                  </Typography>
+                </CardContent>
+              </Grid>
+            </Grid>
           </Card>
         </Grid>
       </Grid>

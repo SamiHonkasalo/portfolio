@@ -8,6 +8,7 @@
       "nav_connect": "Connect",
       "profile_greet": "Greetings!",
       "profile_intro": "I'm a 25-year-old ICT Engineer from Jyväskylä, Finland. I'm currently working as a software developer at Devecto Oy and I also work a part-time teacher at Jyväskylä University of Applied Sciences, where I mainly teach automation engineering. On my current job, I'm mostly working on web development with React being my main focus.",
+      "profile_intro_2": "I graduated from JAMK as an automation engineer in january 2018 and I worked as an automation software developer in large-scale international projects, during which my passion for programming came to be. In autumn 2019 I started my ICT engineering studies, which I finished in about a year, while working at my current job.",
       "profile_seeking_title": "What am I looking for?",
       "profile_why_title": "Why Sami?",
       "profile_why": "I'm agile, persistent, adaptive and a fast learner. I'm good at managing my own time and I can handle my tasks in time. You can also always trust that I will ask for help and guidance if I face an issue that I cannot handle on my own. If this sounds a bit too good to be true, here's a direct quote from a previous employer: 'Sami has shown resourcefulness and great problem solving skills on his assignments. The assignments have been handled with an active grasp and the results have been excellent.'",
@@ -23,10 +24,11 @@
       "nav_connect": "Ota yhteyttä",
       "profile_greet": "Tervehdys!",
       "profile_intro": "Olen 25-vuotias tieto- ja viestintätekniikan insinööri Jyväskylästä. Työskentelen tällä hetkellä ohjelmistokehittäjänä Devecto Oy:llä ja työni ohella toimin sivutoimisena tuntiopettajana Jyväskylän Ammattikorkeakoulussa automaatiotekniikan alalla. Nykyisissä työtehtävissäni olen keskittynyt pääasiassa Web-kehitykseen, jossa painotus on ollut vahvasti React-kehityksessä.",
+      "profile_intro_2": "Valmistuin Jyväskylän ammattikorkeakoulusta automaatioinsinööriksi tammikuussa 2018, jonka jälkeen työskentelin automaation sovelluskehittäjänä isoissa kansainvälisissä projekteissa, jota kautta intohimoni ohjelmointia kohtaan heräsi. Syksyllä 2019 aloitin tieto- ja viestintätekniikan koulutusohjelman, ja suoritin nykyisen työni ohella toisen insinööritutkintoni.",
       "profile_seeking_title": "Mitä etsin?",
       "profile_why_title": "Miksi Sami?",
       "profile_why": "Olen reipas, nopeasti oppiva, sinnikäs ja sopeutuva. Hoidan työtehtäväni ajallaan, ja osaan aina kysyä tarvittaessa apua. Mikäli tämä kuulostaa uskomattomalta, niin tässä lainaus aiemmalta työnantajaltani: 'Työtehtävien hoidossa Sami on osoittanut neuvokkuutta ja loistavaa ongelmanratkaisukykyä. Työtehtävänsä Sami on hoitanut aktiivisella otteella ja tulokset ovat olleet erinomaisia.'",
-      "profile_seeking": "Tulevalta työpaikaltani toivon ja odotan hyvää sosiaalista ilmapiiriä ja mielenkiintoisia työtehtäviä. Olen aina kiinnostunut tutustumaan uusiin ihmisiin ja oppimaan uusia asioita!"
+      "profile_seeking": "Tulevalta työpaikaltani toivon ja odotan hyvää sosiaalista ilmapiiriä ja mielenkiintoisia työtehtäviä. Olen aina kiinnostunut tutustumaan uusiin ihmisiin ja oppimaan uusia asioita! Tällä hetkellä olen eniten kiinnostunut fullstack-kehityksestä"
     }
   }
 }
