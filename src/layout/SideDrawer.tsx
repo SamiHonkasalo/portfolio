@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
   title: {
     fontFamily: "'Satisfy', cursive",
-    color: theme.palette.secondary.dark,
+    color: theme.palette.secondary.main,
   },
 }));
 
