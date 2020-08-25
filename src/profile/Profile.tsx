@@ -87,7 +87,7 @@ const Profile: React.FC = () => {
               className={classes.header}
             />
             <Grid container justify="center">
-              <Grid item xs={12} md={8}>
+              <Grid item xs={12} md={10}>
                 <CardContent>
                   <Typography
                     variant="body1"
@@ -108,7 +108,7 @@ const Profile: React.FC = () => {
               className={classes.header}
             />
             <Grid container justify="center">
-              <Grid item xs={12} md={8}>
+              <Grid item xs={12} md={10}>
                 <CardContent>
                   <Typography
                     variant="body1"
