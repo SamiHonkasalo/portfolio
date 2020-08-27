@@ -15,6 +15,7 @@ import { useTranslation } from 'react-i18next';
 import useTitle from '../utils/hooks/useTitle';
 import Project from './Project';
 import placesImage from '../assets/images/places-app.JPG';
+import datingImage from '../assets/images/dating.PNG';
 
 const useStyles = makeStyles((theme: Theme) => ({
   header: {
@@ -61,7 +62,7 @@ const Technologies: React.FC = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Project
-            title="Places-App"
+            title="Places App"
             technologies={[
               'React',
               'NodeJS',
@@ -88,29 +89,24 @@ const Technologies: React.FC = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Project
-            title="Places-App"
+            title="Dating App"
             technologies={[
-              'React',
-              'NodeJS',
-              'MongoDB',
-              'Express',
+              'Angular',
+              '.NET Core',
+              'SQL',
+              'EntityFramework',
               'TypeScript',
-              'Firebase',
-              'Heroku',
+              'Azure',
             ]}
-            description={t('places_description')}
+            description={t('dating_description')}
             github={[
               {
-                title: 'Frontend',
-                url: 'https://github.com/SamiHonkasalo/mern-frontend',
-              },
-              {
-                title: 'Backend',
-                url: 'https://github.com/SamiHonkasalo/mern-backend',
+                title: 'Project',
+                url: 'https://github.com/SamiHonkasalo/dating-app',
               },
             ]}
-            image={placesImage}
-            url="https://mern-279016.web.app/"
+            image={datingImage}
+            url="https://datingappsaho.azurewebsites.net/home"
           />
         </Grid>
         <Grid item xs={12} sm={6} md={4}>

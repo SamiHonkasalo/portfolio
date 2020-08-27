@@ -106,7 +106,7 @@ const Project = ({
           </div>
         }
       />
-      <Grid container justify="center">
+      <Grid container justify="center" style={{ minHeight: '33%' }}>
         <Grid item xs={12} md={10}>
           <CardContent>
             <Typography align="center" variant="body1">
@@ -123,6 +123,7 @@ const Project = ({
         image={image}
         className={classes.media}
         title={title}
+        style={{ maxHeight: '35%' }}
       />
       <CardActions style={{ justifyContent: 'center' }}>
         <Grid container spacing={2} justify="center">
