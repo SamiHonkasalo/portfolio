@@ -28,6 +28,8 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
   card: {
     height: '100%',
+    display: 'flex',
+    flexDirection: 'column',
   },
   chips: {
     display: 'flex',
@@ -93,69 +95,66 @@ const Project = ({
 }: Props) => {
   const classes = useStyles();
   return (
-    <Card className={classes.card}>
-      <CardHeader
-        titleTypographyProps={{ align: 'center' }}
-        title={title}
-        className={classes.header}
-        subheader={
-          <div className={classes.chips}>
-            {technologies.map((t) => (
-              <Chip size="small" label={t} />
-            ))}
-          </div>
-        }
-      />
-      <Grid container justify="center" style={{ minHeight: '33%' }}>
-        <Grid item xs={12} md={10}>
-          <CardContent>
-            <Typography align="center" variant="body1">
-              {description}
-            </Typography>
-          </CardContent>
-        </Grid>
-      </Grid>
-      <CardMedia
-        component={Link}
-        href={url}
-        target="_blank"
-        rel="noreferrer"
-        image={image}
-        className={classes.media}
-        title={title}
-        style={{ maxHeight: '35%' }}
-      />
-      <CardActions style={{ justifyContent: 'center' }}>
-        <Grid container spacing={2} justify="center">
-          <Grid item>
-            <SiteButton
-              component={Link}
-              href={url}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Site
-            </SiteButton>
+    <Grid item container xs={12} sm={12} md={6} lg={4}>
+      <Card className={classes.card}>
+        <CardHeader
+          titleTypographyProps={{ align: 'center' }}
+          title={title}
+          className={classes.header}
+          subheader={
+            <div className={classes.chips}>
+              {technologies.map((t) => (
+                <Chip key={t} size="small" label={t} />
+              ))}
+            </div>
+          }
+        />
+        <Grid container justify="center">
+          <Grid item xs={12} md={10}>
+            <CardContent>
+              <Typography align="center" variant="body1">
+                {description}
+              </Typography>
+            </CardContent>
           </Grid>
-          {github.map((g) => {
-            return (
+        </Grid>
+        <div style={{ marginTop: 'auto' }}>
+          <Link href={url} target="_blank" rel="noreferrer">
+            <CardMedia image={image} className={classes.media} title={title} />
+          </Link>
+          <CardActions style={{ justifyContent: 'center' }}>
+            <Grid container spacing={2} justify="center">
               <Grid item>
-                <GitHubButton
+                <SiteButton
                   component={Link}
-                  href={g.url}
+                  href={url}
                   target="_blank"
                   rel="noreferrer"
-                  title={`GitHub ${g.title}`}
-                  aria-label={`GitHub ${g.title}`}
                 >
-                  {g.title}
-                </GitHubButton>
+                  Site
+                </SiteButton>
               </Grid>
-            );
-          })}
-        </Grid>
-      </CardActions>
-    </Card>
+              {github.map((g) => {
+                return (
+                  <Grid key={g.title} item>
+                    <GitHubButton
+                      component={Link}
+                      href={g.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      title={`GitHub ${g.title}`}
+                      aria-label={`GitHub ${g.title}`}
+                    >
+                      {g.title}
+                    </GitHubButton>
+                  </Grid>
+                );
+              })}
+            </Grid>
+          </CardActions>
+        </div>
+      </Card>
+    </Grid>
   );
 };
 

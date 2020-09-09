@@ -16,6 +16,7 @@ import useTitle from '../utils/hooks/useTitle';
 import Project from './Project';
 import placesImage from '../assets/images/places-app.JPG';
 import datingImage from '../assets/images/dating.PNG';
+import thesisImage from '../assets/images/thesis.PNG';
 
 const useStyles = makeStyles((theme: Theme) => ({
   header: {
@@ -60,82 +61,72 @@ const Technologies: React.FC = () => {
             </Grid>
           </Card>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Project
-            title="Places App"
-            technologies={[
-              'React',
-              'NodeJS',
-              'MongoDB',
-              'Express',
-              'TypeScript',
-              'Firebase',
-              'Heroku',
-            ]}
-            description={t('places_description')}
-            github={[
-              {
-                title: 'Frontend',
-                url: 'https://github.com/SamiHonkasalo/mern-frontend',
-              },
-              {
-                title: 'Backend',
-                url: 'https://github.com/SamiHonkasalo/mern-backend',
-              },
-            ]}
-            image={placesImage}
-            url="https://mern-279016.web.app/"
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Project
-            title="Dating App"
-            technologies={[
-              'Angular',
-              '.NET Core',
-              'SQL',
-              'EntityFramework',
-              'TypeScript',
-              'Azure',
-            ]}
-            description={t('dating_description')}
-            github={[
-              {
-                title: 'Project',
-                url: 'https://github.com/SamiHonkasalo/dating-app',
-              },
-            ]}
-            image={datingImage}
-            url="https://datingappsaho.azurewebsites.net/home"
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Project
-            title="Places-App"
-            technologies={[
-              'React',
-              'NodeJS',
-              'MongoDB',
-              'Express',
-              'TypeScript',
-              'Firebase',
-              'Heroku',
-            ]}
-            description={t('places_description')}
-            github={[
-              {
-                title: 'Frontend',
-                url: 'https://github.com/SamiHonkasalo/mern-frontend',
-              },
-              {
-                title: 'Backend',
-                url: 'https://github.com/SamiHonkasalo/mern-backend',
-              },
-            ]}
-            image={placesImage}
-            url="https://mern-279016.web.app/"
-          />
-        </Grid>
+        <Project
+          title="Places App"
+          technologies={[
+            'React',
+            'NodeJS',
+            'MongoDB',
+            'Express',
+            'TypeScript',
+            'Firebase',
+            'Heroku',
+          ]}
+          description={t('places_description')}
+          github={[
+            {
+              title: 'Frontend',
+              url: 'https://github.com/SamiHonkasalo/mern-frontend',
+            },
+            {
+              title: 'Backend',
+              url: 'https://github.com/SamiHonkasalo/mern-backend',
+            },
+          ]}
+          image={placesImage}
+          url="https://mern-279016.web.app/"
+        />
+        <Project
+          title="Dating App"
+          technologies={[
+            'Angular',
+            '.NET Core',
+            'C#',
+            'SQL',
+            'EntityFramework',
+            'TypeScript',
+            'Bootstrap',
+            'Azure',
+          ]}
+          description={t('dating_description')}
+          github={[
+            {
+              title: 'Project',
+              url: 'https://github.com/SamiHonkasalo/dating-app',
+            },
+          ]}
+          image={datingImage}
+          url="https://datingappsaho.azurewebsites.net/home"
+        />
+        <Project
+          title="HarvesThem"
+          technologies={[
+            'React',
+            'TypeScript',
+            'Material design',
+            'Jest',
+            'Azure',
+          ]}
+          description={t('thesis_description')}
+          github={[
+            {
+              title: 'Project',
+              url: 'https://github.com/SamiHonkasalo/thesis',
+            },
+          ]}
+          image={thesisImage}
+          url="https://saho-thesis.azurewebsites.net/"
+        />
       </Grid>
     </Container>
   );

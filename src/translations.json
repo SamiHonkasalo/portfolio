@@ -14,8 +14,10 @@
       "profile_why": "I'm agile, persistent, adaptive and a fast learner. I'm good at managing my own time and I can handle my tasks in time. You can also always trust that I will ask for help and guidance if I face an issue that I cannot handle on my own. If this sounds a bit too good to be true, here's a direct quote from a previous employer: 'Sami has shown resourcefulness and great problem solving skills on his assignments. The assignments have been handled with an active grasp and the results have been excellent.'",
       "profile_seeking": "From my future work place I hope to find a social atmosphere and interesting assignments and projects. I'm always excited to meet new people and to learn new things!",
       "techologies_intro_title": "Technologies used in my projects",
-      "technologies_intro": "Here you'll see my latest personal projects and the technologies I'm most interested in. Currently I am focused on learning more about the MERN stack with TypeScript and my main focus is to use TS on all my React projects. Besides Node I am also using .NET Core back-end on my projects.",
-      "places_description": "Application that allows users to share places that they like. Created with the MERN (MongoDB, Express, React, Node) stack using TypeScript, front-end hosted at Firebase, back-end at Heroku"
+      "technologies_intro": "Here you'll see my latest personal projects and the technologies I'm most interested in. Currently I am focused on learning more about the MERN stack with TypeScript and my main focus is to use TS on all my JS projects. Besides Node I am also using .NET Core back-end on my projects. Below you'll find my latest three projects and the technologies used in them",
+      "places_description": "Application that allows users to share places that they like. Created with the MERN (MongoDB, Express, React, Node) stack using TypeScript, front-end hosted at Firebase, back-end at Heroku",
+      "dating_description": "Application is an imaginary dating app with a couple of randomly generated users. Made with Angular and .NET Core. App includes for example pagination and user roles. Published at Azure.",
+      "thesis_description": "Application is a thesis work done as an admin service for an imaginary harvester company. Includes the use of map library, chart library, Material UI design library and unit testing. Published at Azure."
     }
   },
   "fi": {
@@ -33,8 +35,10 @@
       "profile_why": "Olen reipas, nopeasti oppiva, sinnikäs ja sopeutuva. Hoidan työtehtäväni ajallaan, ja osaan aina kysyä tarvittaessa apua. Mikäli tämä kuulostaa uskomattomalta, niin tässä lainaus aiemmalta työnantajaltani: 'Työtehtävien hoidossa Sami on osoittanut neuvokkuutta ja loistavaa ongelmanratkaisukykyä. Työtehtävänsä Sami on hoitanut aktiivisella otteella ja tulokset ovat olleet erinomaisia.'",
       "profile_seeking": "Tulevalta työpaikaltani toivon ja odotan hyvää sosiaalista ilmapiiriä ja mielenkiintoisia työtehtäviä. Olen aina kiinnostunut tutustumaan uusiin ihmisiin ja oppimaan uusia asioita! Tällä hetkellä olen eniten kiinnostunut fullstack-kehityksestä",
       "techologies_intro_title": "Projekteissani käytetyt teknologiat",
-      "technologies_intro": "Täällä näet viimeisimmät henkilökohtaiset projektini ja niihin liittyvät teknologiat. Tällä hetkellä olen keskittynyt MERN-stackin opiskeluun TypeScriptillä, ja pääfokus onkin TypeScriptin käytössä kaikissa React-projekteissani. Node-backendin lisäksi olen käyttänyt myös .NET Core -backendiä projekteissani.",
-      "places_description": "Sovelluksen avulla käyttäjät voivat jakaa suosikkipaikkojaan muille käyttäjille. Tehty käyttäen MERN-stackkia (MongoDB, Express, React, Node) ja TypeScriptiä. Frontend Firebasessa, backend Herokussa."
+      "technologies_intro": "Täällä näet viimeisimmät henkilökohtaiset projektini ja niihin liittyvät teknologiat. Tällä hetkellä olen keskittynyt MERN-stackin opiskeluun TypeScriptillä, ja pääfokus onkin TypeScriptin käytössä kaikissa JS-projekteissani. Node-backendin lisäksi olen käyttänyt myös .NET Core -backendiä projekteissani. Alla kolme viimeisintä projektiani ja niissä käytetyt teknologiat.",
+      "places_description": "Sovelluksen avulla käyttäjät voivat jakaa suosikkipaikkojaan muille käyttäjille. Tehty käyttäen MERN-stackkia (MongoDB, Express, React, Node) ja TypeScriptiä. Frontend Firebasessa, backend Herokussa.",
+      "dating_description": "Sovellus on kuvitteellinen seuranhakupalvelu muutamalla satunnaisgeneroidulla käyttäjällä. Tehty Angularilla ja .NET Corella. Sisältää esimerkiksi paginaation käyttöä ja käyttäjäroolit. Julkaistu Azuressa.",
+      "thesis_description": "Sovellus on opinnäytetyönä tehty kuvitteellinen metsäkoneyrityksen hallintajärjestelmä. Sisältää karttakirjaston käyttöä, kuvaajakirjaston käyttöä, Material UI -kirjaston käyttöä, sekä yksikkötestausta. Julkaistu Azuressa."
     }
   }
 }
