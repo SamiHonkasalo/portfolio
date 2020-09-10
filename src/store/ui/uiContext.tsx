@@ -4,7 +4,7 @@ import uiReducer, { UIState, UIActions, UITypes } from './uiReducer';
 const initialState: UIState = {
   sideDrawerOpen: true,
   sideDrawerTransitioned: true,
-  themeMode: false,
+  themeMode: true,
   notifications: [] as NotificationType[],
   title: 'Portfolio',
 };
