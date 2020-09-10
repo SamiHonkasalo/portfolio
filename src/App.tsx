@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 
 import Layout from './layout/Layout';
 import LayoutWrapper from './layout/LayoutWrapper';
@@ -32,6 +32,7 @@ function App() {
             <Route path="/connect" exact>
               <Connect />
             </Route>
+            <Redirect to="/" />
           </Switch>
         </Layout>
       </div>
