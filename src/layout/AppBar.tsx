@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { makeStyles, Theme } from '@material-ui/core/styles';
 import MuiAppBar from '@material-ui/core/AppBar';
 import clsx from 'clsx';
@@ -58,6 +58,14 @@ const AppBar: React.FC = () => {
 
   const { themeMode } = state;
 
+  // On mount, set the language based on localstorage
+  useEffect(() => {
+    const lng = localStorage.getItem('appLanguage');
+    if (lng) {
+      i18n.changeLanguage(lng);
+    }
+  }, [i18n]);
+
   const handleThemeSwitch = () => {
     if (themeMode) {
       dispatch({
@@ -72,8 +80,10 @@ const AppBar: React.FC = () => {
 
   const handleLanguageToggle = () => {
     if (i18n.language === 'en') {
+      localStorage.setItem('appLanguage', 'fi');
       i18n.changeLanguage('fi');
     } else {
+      localStorage.setItem('appLanguage', 'en');
       i18n.changeLanguage('en');
     }
   };
