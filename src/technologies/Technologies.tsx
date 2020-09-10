@@ -20,7 +20,7 @@ import thesisImage from '../assets/images/thesis.PNG';
 
 const useStyles = makeStyles((theme: Theme) => ({
   header: {
-    borderBottom: `2px solid${theme.palette.primary.main}`,
+    borderBottom: `2px solid ${theme.palette.primary.main}`,
   },
   card: {
     height: '100%',

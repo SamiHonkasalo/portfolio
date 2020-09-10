@@ -17,7 +17,18 @@
       "technologies_intro": "Here you'll see my latest personal projects and the technologies I'm most interested in. Currently I am focused on learning more about the MERN stack with TypeScript and my main focus is to use TS on all my JS projects. Besides Node I am also using .NET Core back-end on my projects. Below you'll find my latest three projects and the technologies used in them",
       "places_description": "Application that allows users to share places that they like. Created with the MERN (MongoDB, Express, React, Node) stack using TypeScript, front-end hosted at Firebase, back-end at Heroku",
       "dating_description": "Application is an imaginary dating app with a couple of randomly generated users. Made with Angular and .NET Core. App includes for example pagination and user roles. Published at Azure.",
-      "thesis_description": "Application is a thesis work done as an admin service for an imaginary harvester company. Includes the use of map library, chart library, Material UI design library and unit testing. Published at Azure."
+      "thesis_description": "Application is a thesis work done as an admin service for an imaginary harvester company. Includes the use of map library, chart library, Material UI design library and unit testing. Published at Azure.",
+      "experience_intro_title": "My latest places of employment",
+      "experience_intro": "During the autumn of 2019 I begun my studies for my ICT engineering degree and I also started working as a visiting lecturer at JAMK. In December of 2019 I left my automation engineering position to become a software developer at my current place of work. Before the places shown on the timeline, I have mostly worked as an automation mechanic/electrician in different forest industry sites.",
+      "experience_next": "What next?",
+      "experience_devecto_title": "Software developer",
+      "experience_devecto_description": "Software development, mainly web-development",
+      "experience_jamk_title": "Visiting lecturer",
+      "experience_jamk_description": "Part time teaching of automation technology courses for upcoming engineers",
+      "experience_pcs_title": "Automation engineer",
+      "experience_pcs_description": "Designing, developing and commissioning of automation applications",
+      "experience_ptc_title": "Automation engineer",
+      "experience_ptc_description": "Designing, developing and commissioning of automation applications"
     }
   },
   "fi": {
@@ -38,7 +49,18 @@
       "technologies_intro": "Täällä näet viimeisimmät henkilökohtaiset projektini ja niihin liittyvät teknologiat. Tällä hetkellä olen keskittynyt MERN-stackin opiskeluun TypeScriptillä, ja pääfokus onkin TypeScriptin käytössä kaikissa JS-projekteissani. Node-backendin lisäksi olen käyttänyt myös .NET Core -backendiä projekteissani. Alla kolme viimeisintä projektiani ja niissä käytetyt teknologiat.",
       "places_description": "Sovelluksen avulla käyttäjät voivat jakaa suosikkipaikkojaan muille käyttäjille. Tehty käyttäen MERN-stackkia (MongoDB, Express, React, Node) ja TypeScriptiä. Frontend Firebasessa, backend Herokussa.",
       "dating_description": "Sovellus on kuvitteellinen seuranhakupalvelu muutamalla satunnaisgeneroidulla käyttäjällä. Tehty Angularilla ja .NET Corella. Sisältää esimerkiksi paginaation käyttöä ja käyttäjäroolit. Julkaistu Azuressa.",
-      "thesis_description": "Sovellus on opinnäytetyönä tehty kuvitteellinen metsäkoneyrityksen hallintajärjestelmä. Sisältää karttakirjaston käyttöä, kuvaajakirjaston käyttöä, Material UI -kirjaston käyttöä, sekä yksikkötestausta. Julkaistu Azuressa."
+      "thesis_description": "Sovellus on opinnäytetyönä tehty kuvitteellinen metsäkoneyrityksen hallintajärjestelmä. Sisältää karttakirjaston käyttöä, kuvaajakirjaston käyttöä, Material UI -kirjaston käyttöä, sekä yksikkötestausta. Julkaistu Azuressa.",
+      "experience_intro_title": "Viimeisimmät työpaikkani",
+      "experience_intro": "Syksyllä 2019 aloitin opintoni tieto- ja viestintätekniikan insinööriksi, ja samalla aloitin työni sivutoimisena tuntiopettajana Jyväskylän Ammattikorkeakoululla. Joulukuussa 2019 siirryin automaatioinsinöörin työtehtävistä ohjelmistokehittäjäksi nykyiseen työpaikkaani. Ennen aikajanalla näkyviä työpaikkoja olen työskennellyt pääasiassa sähkö- ja automaatiokunnossapidossa erilaisissa metsäteollisuuden kohteissa.",
+      "experience_next": "Mitä seuraavaksi?",
+      "experience_devecto_title": "Ohjelmistokehittäjä",
+      "experience_devecto_description": "Ohjelmistokehitys, pääasiassa web-kehitys",
+      "experience_jamk_title": "Tuntiopettaja",
+      "experience_jamk_description": "Automaatiotekniikan kurssien sivutoimista opettamista tuleville insinööreille",
+      "experience_pcs_title": "Automaatioinsinööri",
+      "experience_pcs_description": "Automaatiosovellusten suunnittelu, kehitys ja käyttöönotto",
+      "experience_ptc_title": "Automaatioinsinööri",
+      "experience_ptc_description": "Automaatiosovellusten suunnittelu, kehitys ja käyttöönotto"
     }
   }
 }
