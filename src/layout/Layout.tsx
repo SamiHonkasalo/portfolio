@@ -27,6 +27,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   container: {
     height: '100%',
     padding: theme.spacing(0),
+    paddingTop: theme.spacing(1),
     [theme.breakpoints.up('md')]: {
       padding: theme.spacing(1),
     },
