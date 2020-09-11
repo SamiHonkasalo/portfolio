@@ -28,7 +28,13 @@
       "experience_pcs_title": "Automation engineer",
       "experience_pcs_description": "Designing, developing and commissioning of automation applications",
       "experience_ptc_title": "Automation engineer",
-      "experience_ptc_description": "Designing, developing and commissioning of automation applications"
+      "experience_ptc_description": "Designing, developing and commissioning of automation applications",
+      "education_intro_title": "My education history",
+      "education_intro": "During my automation engineer projects I developed an appetite for more traditional programming and because of that, I decided to get my second engineering degree.",
+      "education_ict_title": "ICT Engineer",
+      "education_automation_title": "Automation Engineer",
+      "education_gymnasium_title": "Matriculation examination",
+      "education_ekami_title": "Electrician"
     }
   },
   "fi": {
@@ -60,7 +66,13 @@
       "experience_pcs_title": "Automaatioinsinööri",
       "experience_pcs_description": "Automaatiosovellusten suunnittelu, kehitys ja käyttöönotto",
       "experience_ptc_title": "Automaatioinsinööri",
-      "experience_ptc_description": "Automaatiosovellusten suunnittelu, kehitys ja käyttöönotto"
+      "experience_ptc_description": "Automaatiosovellusten suunnittelu, kehitys ja käyttöönotto",
+      "education_intro_title": "Koulutushistoriani",
+      "education_intro": "Automaatioinsinöörin työtehtävien aikana minulle heräsi vahva mielenkiinto perinteistä ohjelmointia kohtaan ja sen innoittamana suoritin lisäksi toisen insinööritutkintoni.",
+      "education_ict_title": "Tieto- ja viestintätekniikan insinööri",
+      "education_automation_title": "Automaatiotekniikan insinööri",
+      "education_gymnasium_title": "Ylioppilas",
+      "education_ekami_title": "Sähköasentaja"
     }
   }
 }
