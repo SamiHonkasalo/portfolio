@@ -17,6 +17,7 @@ import Project from './Project';
 import placesImage from '../assets/images/places-app.JPG';
 import datingImage from '../assets/images/dating.PNG';
 import thesisImage from '../assets/images/thesis.PNG';
+import chatImage from '../assets/images/chat.PNG';
 
 const useStyles = makeStyles((theme: Theme) => ({
   header: {
@@ -126,6 +127,27 @@ const Technologies: React.FC = () => {
           ]}
           image={thesisImage}
           url="https://saho-thesis.azurewebsites.net/"
+        />
+        <Project
+          title="SaHoChat"
+          technologies={[
+            'React',
+            'TypeScript',
+            'Material design',
+            '.NET Core',
+            'C#',
+            'SignalR',
+            'Azure',
+          ]}
+          description={t('chat_description')}
+          github={[
+            {
+              title: 'Project',
+              url: 'https://github.com/SamiHonkasalo/saho-chat',
+            },
+          ]}
+          image={chatImage}
+          url="https://sahochat.azurewebsites.net/"
         />
       </Grid>
     </Container>
