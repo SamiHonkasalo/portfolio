@@ -25,6 +25,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   media: {
     height: '13rem',
     backgroundSize: 'contain',
+    border: `1px solid ${theme.palette.primary.main}`,
   },
   card: {
     height: '100%',
