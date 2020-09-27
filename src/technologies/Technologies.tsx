@@ -63,6 +63,46 @@ const Technologies: React.FC = () => {
           </Card>
         </Grid>
         <Project
+          title="SaHoChat"
+          technologies={[
+            'React',
+            'TypeScript',
+            'Material design',
+            '.NET Core',
+            'C#',
+            'SignalR',
+            'Azure',
+          ]}
+          description={t('chat_description')}
+          github={[
+            {
+              title: 'Project',
+              url: 'https://github.com/SamiHonkasalo/saho-chat',
+            },
+          ]}
+          image={chatImage}
+          url="https://sahochat.azurewebsites.net/"
+        />
+        <Project
+          title="HarvesThem"
+          technologies={[
+            'React',
+            'TypeScript',
+            'Material design',
+            'Jest',
+            'Azure',
+          ]}
+          description={t('thesis_description')}
+          github={[
+            {
+              title: 'Project',
+              url: 'https://github.com/SamiHonkasalo/thesis',
+            },
+          ]}
+          image={thesisImage}
+          url="https://saho-thesis.azurewebsites.net/"
+        />
+        <Project
           title="Places App"
           technologies={[
             'React',
@@ -108,46 +148,6 @@ const Technologies: React.FC = () => {
           ]}
           image={datingImage}
           url="https://datingappsaho.azurewebsites.net/home"
-        />
-        <Project
-          title="HarvesThem"
-          technologies={[
-            'React',
-            'TypeScript',
-            'Material design',
-            'Jest',
-            'Azure',
-          ]}
-          description={t('thesis_description')}
-          github={[
-            {
-              title: 'Project',
-              url: 'https://github.com/SamiHonkasalo/thesis',
-            },
-          ]}
-          image={thesisImage}
-          url="https://saho-thesis.azurewebsites.net/"
-        />
-        <Project
-          title="SaHoChat"
-          technologies={[
-            'React',
-            'TypeScript',
-            'Material design',
-            '.NET Core',
-            'C#',
-            'SignalR',
-            'Azure',
-          ]}
-          description={t('chat_description')}
-          github={[
-            {
-              title: 'Project',
-              url: 'https://github.com/SamiHonkasalo/saho-chat',
-            },
-          ]}
-          image={chatImage}
-          url="https://sahochat.azurewebsites.net/"
         />
       </Grid>
     </Container>
